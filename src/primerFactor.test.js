@@ -11,4 +11,7 @@ describe("Primer factor", () => {
   it("should return[2] for input 2", () => {
     expect(PrimerFactor.generate(2)).toEqual(list(2));
   });
+  it("should return[3] for input 3", () => {
+    expect(PrimerFactor.generate(3)).toEqual(list(3));
+  });
 });
